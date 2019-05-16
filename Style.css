@@ -1,0 +1,168 @@
+/*
+selector {
+property:value; 
+property:value; 
+property:value; 
+}
+*/
+
+h1  {
+    font-family: 'Playball', cursive;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    position: relative;
+    top: 10px;
+    width: auto;
+    text-align: center; 
+}
+
+h1 a {
+    color: black; 
+    text-decoration: none;
+    /*    transition: color .3s ease;*/
+}
+
+h1 a:hover, a:focus {
+    text-decoration: none;
+    color: black; 
+}
+
+.header  {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: auto; 
+    position: relative;
+    text-align: center; 
+    word-spacing: 20px;
+}
+
+.header a {
+    color: #767676; 
+    text-decoration: none;
+    /*    transition: color .3s ease;*/
+}
+
+
+.header a:hover,.header a:focus {
+    text-decoration: underline;
+    color: black; 
+}
+
+.header a:active {
+    text-decoration: underline;
+    color: black; 
+}
+
+p2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    line-height: 1em; 
+    width: 530px; 
+    position: fixed;
+    top: 180px;
+    left: 650px;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+.about {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 1.3em; 
+    width: 450px; 
+    position: fixed;
+    top: 210px;
+    left: 650px;
+    color: #767676;
+    font-size: 15px;
+    text-align: left;
+}
+
+.aboutpic {
+    top: 180px;
+    left: 220px;
+    position: fixed;
+}
+
+body {
+    top: 180px;
+}
+
+.about a {
+    color: #767676; 
+    text-decoration: none;
+    font-weight: 400; 
+    /*    transition: color .3s ease;*/
+}
+
+
+.about a:hover,.body a:focus {
+    text-decoration: underline;
+    color: black; 
+}
+
+.question {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    top: 50px;
+    line-height: 1.5;
+    text-align: center;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+.clicktext {
+    text-align: center;
+    padding: 32px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: darkgrey;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    color: white;
+}
+
+/*
+.btn a:hover {
+    background-color: white;
+}
+*/
+
+
+.btn a:active {
+    background-color: white;
+    color: #767676;
+}
